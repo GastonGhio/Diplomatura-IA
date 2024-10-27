@@ -114,10 +114,3 @@ for col in casos2.columns:
         
 print(casos2.head())
 
-ruta_archivo = "/content/covid_determinaciones(1).csv"
-
-# Leer el archivo CSV con pandas
-determinaciones = pd.read_csv(ruta_archivo)
-
-# Mostrar las primeras filas del conjunto de datos
-print(determinaciones.head())

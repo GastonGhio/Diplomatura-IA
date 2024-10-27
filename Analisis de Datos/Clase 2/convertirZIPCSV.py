@@ -79,3 +79,5 @@ casos_panel_muertos = casos[casos.clasificacion_resumen == "Confirmado"].pivot_t
 ).reset_index()
 
 print(casos_panel_muertos.head(100))
+
+#concatenar
